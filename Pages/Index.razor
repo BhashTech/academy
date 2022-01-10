@@ -2,8 +2,66 @@
 
 <PageTitle>Index</PageTitle>
 
-<h1>Welcome to Academy</h1>
+<h1>Flash Cards </h1>
 
-Welcome to your new app.
+@foreach (var flashcard in flashCards)
+{
+    <FlashCard Message="@flashcard.Message" FlipMessage="@flashcard.FlipMessage" Id="@flashcard.Id" TimeOutValue="6" NextRequested="NextRequested"></FlashCard>  
+}
+ 
+@code
+{
+    List<FlashCard> flashCards = new List<FlashCard>();
+    public string? message { get; set; }
+    public string? flipmessage { get; set; }
+    public int Id { get; set; }
 
-<SurveyPrompt Title=" Enjoy" />
+    List<string> Messages = new List<string>();
+    List<string> FlipMessages = new List<string>();
+
+    void NextRequested(int Id)
+    {
+        //if(Id < Messages.Count)
+        //{
+            //message = Messages[++Id];
+            //flipmessage = FlipMessages[++Id];
+            //++Id;
+        //}
+    }
+    protected override Task OnParametersSetAsync()
+    {
+       // message = Messages[0];
+       // flipmessage = FlipMessages[0];
+        //Id = 0;
+        return base.OnParametersSetAsync();
+    }
+
+    protected override void OnInitialized()
+    {
+        if (flashCards != null)        
+        {
+            flashCards.Add(new FlashCard(0, "ありがとうございます.", "ThankYou"));
+            flashCards.Add(new FlashCard(1, "こんにちは.", "Hello"));
+            flashCards.Add(new FlashCard(2, "こんばんは.", "Good Evening"));
+            flashCards.Add(new FlashCard(2, "おはようございます.", "Good Morning"));
+        }
+        base.OnInitialized();
+    }
+
+    public class FlashCard
+    {
+        public FlashCard(int paramId , string paramessage, string paramflipmessage)
+        {
+            Id = paramId;
+            Message = paramessage;
+            FlipMessage = paramflipmessage;
+        }
+
+        public int Id { get; set; }
+        public string? Message { get; set; }
+        public string? FlipMessage { get; set; }
+    }
+
+
+}
+
