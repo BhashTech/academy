@@ -1,0 +1,3 @@
+C:\BhashStudy\source\repos\1_29\academy\src\obj\Release\net6.0\browser-wasm\PubTmp\Out\package-lock.json
+C:\BhashStudy\source\repos\1_29\academy\src\obj\Release\net6.0\browser-wasm\PubTmp\Out\package.json
+C:\BhashStudy\source\repos\1_29\academy\src\obj\Release\net6.0\browser-wasm\PubTmp\Out\web.config
