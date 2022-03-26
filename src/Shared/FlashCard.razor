@@ -1,16 +1,66 @@
 ﻿@implements IDisposable
 
     <!--<button @onclick="Next">Next</button>-->
-    @if (Message != null)
+    @if (Title != null)
     {
-        <div class="max-w-sm  bg-yellow-100 rounded overflow-hidden shadow-lg">
+
+@*<div class ="bg-white-100 rounded-lg shadow-2xl w-3/4">
+            <div class="flex">      
+             <img src = "https://picsum.photos/seed/picsum/200/300" class="rounded-t-lg object-cover">             
+             <div class="p-8 py-4 font-bold">@Message
+                 <br>
+                 <br>
+                 手紙 / メール / メッセージ、ありがとう。
+                 <br>
+                 <br>
+                 Thank you for the letter / email / message.
+             </div>
+            </div>
+             <footer class ="bg-gray-100 rounded-b-lg text-right py-3 px-8 text-xs text-gray-300">
+                 <div class= "flex">
+                     <div>
+                      Updated 3 days ago
+                     </div>
+                     <div class="px-6">
+                        <button class="mt-4 bg-gradient-to-br from-green-600 to-green-500 hover:from-green-500 hover:to-green-600 text-white p-2 rounded border border-green-600" @onclick="Flip">Tap</button>
+                     </div>            
+                 </div>            
+             </footer>
+        </div>*@
+
+        <div class="flex left-0">
+        <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+         <img class="w-full h-70 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg" alt="" />
+        <div class="p-6 flex flex-col justify-start">
+      <h5 class="text-gray-900 text-xl font-medium mb-3">@Title</h5>
+      <p class="text-gray-700 text-base mb-4">
+         @FirstDesc
+         <br>
+         @SecondDesc
+      </p>
+      <div class="px-6">
+        <button class="mt-4 bg-gradient-to-br from-green-600 to-green-500 hover:from-green-500 hover:to-green-600 text-white p-2 rounded border border-green-600" @onclick="Flip">Tap</button>
+      </div> 
+      <br>
+      <br>
+      <br>
+       <footer class ="bg-gray-100 rounded-b-lg text-right py-3 px-8 text-xs text-gray-300">
+        <div>
+           Updated 3 days ago
+        </div> 
+       </footer>
+      <br>
+    </div>
+  </div>
+</div>
+      <!--  <div class="max-w-sm  bg-yellow-100 rounded overflow-hidden shadow-lg">
         <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">@Message</div>
         </div>
          <div class="px-6 pt-4 pb-2">
            <button class="mt-4 bg-gradient-to-br from-green-600 to-green-500 hover:from-green-500 hover:to-green-600 text-white p-2 rounded border border-green-600" @onclick="Flip">Flip</button>
         </div>
-       </div>
+       </div>-->
     }
 
 @code {
@@ -19,33 +69,54 @@
     public int Id { get; set; }
 
     [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public string Level { get; set; }
+
+    [Parameter]
     public int TimeOutValue { get; set; }
 
     [Parameter]
-    public string Message { get; set; }
+    public string ImagePath { get; set; }
 
     [Parameter]
-    public string FlipMessage { get; set; }
+    public string Tags { get; set; }
+
+    [Parameter]
+    public string FlipTitle { get; set; }
+
+    [Parameter]
+    public string FirstDesc { get; set; }
+
+    [Parameter]
+    public string FlipFirstDesc { get; set; }
+
+    [Parameter]
+    public string SecondDesc { get; set; }
+
+    [Parameter]
+    public string FlipSecondDesc { get; set; }
 
     [Parameter]
     public EventCallback<int> NextRequested { get; set; }
 
     bool bNowShowing = false;
     int m_currentTimeOut = 0;
-    bool bFlipped = false;
-    string m_Message = string.Empty;
 
     void Flip()
     {
-        if(!bFlipped)
-        {
-            Message = FlipMessage;
-            bFlipped = true;
-        } else
-        {
-            Message = m_Message;
-            bFlipped = false;
-        }
+        string tempTitle = Title;
+        Title = FlipTitle;
+        FlipTitle = tempTitle;
+
+        string tempFirstDesc = FirstDesc;
+        FirstDesc = FlipFirstDesc;
+        FlipFirstDesc = tempFirstDesc;
+
+        string tempSecondDesc = SecondDesc;
+        SecondDesc = FlipSecondDesc;
+        FlipSecondDesc = tempSecondDesc;
     }
 
     async Task Next()
@@ -55,7 +126,6 @@
 
     protected override void OnParametersSet()
     {
-        m_Message = Message;
         base.OnParametersSet();
     }
 
