@@ -1,23 +1,29 @@
 ﻿@page "/"
 @using System.Net.Http.Headers
+@using Academy.Model
+@inject HttpClient Http
+
 
 <PageTitle>Index</PageTitle>
 
 <h1 class="text-4xl font-bold mb-4 mt-[111px]"> My Deck</h1>
 
 <div class="grid grid-cols-1 gap-4 ">
-@foreach (var flashcard in flashCards)
+@if(allCards != null)
 {
-    <FlashCard Title="@flashcard.Title" FlipTitle="@flashcard.FlipTitle" FirstDesc= "@flashcard.FirstDesc"
-                FlipFirstDesc = "@flashcard.FlipFirstDesc" SecondDesc= "@flashcard.SecondDesc" FlipSecondDesc= "@flashcard.FlipSecondDesc"
+@foreach (var flashcard in allCards)
+        {
+            <FlashCard Title="@flashcard.Title" FlipTitle="@flashcard.FlipTitle" 
+                FlipFirstDesc = "@flashcard.FlipFirstDesc"  FlipSecondDesc= "@flashcard.FlipSecondDesc"
                 ImagePath = "@flashcard.ImagePath" Id="@flashcard.Id" TimeOutValue="6" NextRequested="NextRequested"></FlashCard>  
-     <div class="px-6 py-4" />
-}
+            <div class="px-6 py-4" />
+        }
+ }
 </div>
 @code
 {
 
-    List<FlashCard> flashCards = new List<FlashCard>();
+    List<Card> flashCards = new List<Card>();
     public string? message { get; set; }
     public string? flipmessage { get; set; }
     public int Id { get; set; }
@@ -25,54 +31,44 @@
     List<string> Messages = new List<string>();
     List<string> FlipMessages = new List<string>();
 
-    void NextRequested(int Id)
+    private Card[] allCards;
+
+    void NextRequested(string Id)
     {
         //if(Id < Messages.Count)
         //{
         //message = Messages[++Id];
         //flipmessage = FlipMessages[++Id];
         //++Id;
-    //}
+        //}
     }
     protected override Task OnParametersSetAsync()
     {
         return base.OnParametersSetAsync();
     }
 
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            allCards = await Http.GetFromJsonAsync<Card[]>("data/JLPTN4Cards.json");
+        }
+        catch(Exception ex)
+        {
+            
+        }
+    }
+
     protected override void OnInitialized()
     {
-        if (flashCards != null)        
+        if (flashCards != null)
         {
-            flashCards.Add(new FlashCard(0, "ありがとうございます.", "ThankYou", "手紙 / メール / メッセージ、ありがとう。" , "Thank you for the letter / email / message.", "https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg"));
-            flashCards.Add(new FlashCard(1, "こんにちは.", "Hello",  "手紙 / メール / メッセージ、ありがとう。", "Thank you for the letter / email / message.", "https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg"));
-            flashCards.Add(new FlashCard(2, "こんばんは.", "Good Evening",  "手紙 / メール / メッセージ、ありがとう。", "Thank you for the letter / email / message.", "https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg"));
-            flashCards.Add(new FlashCard(2, "おはようございます.", "Good Morning",  "手紙 / メール / メッセージ、ありがとう。", "Thank you for the letter / email / message.", "https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg"));
+            flashCards.Add(new Card(0, "ありがとうございます.", "ThankYou", "手紙 / メール / メッセージ、ありがとう。" , "Thank you for the letter / email / message.", "https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg"));
+            flashCards.Add(new Card(1, "こんにちは.", "Hello",  "手紙 / メール / メッセージ、ありがとう。", "Thank you for the letter / email / message.", "https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg"));
+            flashCards.Add(new Card(2, "こんばんは.", "Good Evening",  "手紙 / メール / メッセージ、ありがとう。", "Thank you for the letter / email / message.", "https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg"));
+            flashCards.Add(new Card(2, "おはようございます.", "Good Morning",  "手紙 / メール / メッセージ、ありがとう。", "Thank you for the letter / email / message.", "https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg"));
         }
         base.OnInitialized();
     }
-
-    public class FlashCard
-    {
-        public FlashCard(int paramId , string title, string flipTitle,
-                         string firstDesc,string secondDesc, string imagePath)
-        {
-            Id = paramId;
-            Title = title;
-            FlipTitle = flipTitle;
-            FirstDesc = string.Empty;
-            FlipFirstDesc = firstDesc;
-            SecondDesc = string.Empty;
-            FlipSecondDesc = secondDesc;
-            ImagePath = imagePath;
-        }
-
-        public int Id { get; set; }
-        public string? Title { get; set; }
-        public string? FlipTitle { get; set; }
-        public string? FirstDesc { get; set; }
-        public string? FlipFirstDesc { get; set; }
-        public string? SecondDesc { get; set; }
-        public string? FlipSecondDesc { get; set; }
-        public string? ImagePath { get; set; }
-    }
-}
+  }

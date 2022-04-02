@@ -66,7 +66,7 @@
 @code {
 
     [Parameter]
-    public int Id { get; set; }
+    public string Id { get; set; }
 
     [Parameter]
     public string Title { get; set; }
@@ -86,20 +86,18 @@
     [Parameter]
     public string FlipTitle { get; set; }
 
-    [Parameter]
     public string FirstDesc { get; set; }
 
     [Parameter]
     public string FlipFirstDesc { get; set; }
 
-    [Parameter]
     public string SecondDesc { get; set; }
 
     [Parameter]
     public string FlipSecondDesc { get; set; }
 
     [Parameter]
-    public EventCallback<int> NextRequested { get; set; }
+    public EventCallback<string> NextRequested { get; set; }
 
     bool bNowShowing = false;
     int m_currentTimeOut = 0;
@@ -121,7 +119,7 @@
 
     async Task Next()
     {
-        await NextRequested.InvokeAsync(Id);
+        await NextRequested.InvokeAsync(Id.ToString());
     }
 
     protected override void OnParametersSet()
@@ -131,6 +129,8 @@
 
     protected override void OnInitialized()
     {
+        FirstDesc = string.Empty;
+        SecondDesc = string.Empty;
         base.OnInitialized();
     }
 

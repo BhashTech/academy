@@ -1,0 +1,182 @@
+﻿[
+  {
+    "Id": "C1",
+    "Title": "みます  : 見ます，診ます",
+    "FlipTitle": "check , take a look at",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Levels": "N4",
+    "Tags": "MC-26",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C2",
+    "Title": "さがします : 探します、捜します",
+    "FlipTitle": "look for , search",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C3",
+    "Title": "おくれます[じかんに～] : 遅れます[時間に～]",
+    "FlipTitle": "be late(for an appointment,etc.)",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C4",
+    "Title": "まにあいます [じかんに～] : 間に合います[時間に～]",
+    "FlipTitle": "be in time (for an appointment,etc)",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C5",
+    "Title": "やります",
+    "FlipTitle": "do",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C6",
+    "Title": "さんかします[パーティーに～] : 参加します",
+    "FlipTitle": "attend(a party)",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C7",
+    "Title": "もうしこみます : 申し込みます",
+    "FlipTitle": "apply for , enter for",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C8",
+    "Title": "つごうがいい : 都合がいい",
+    "FlipTitle": "convienient(concerning time)",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C9",
+    "Title": "つごうがわるい : 都合が悪い",
+    "FlipTitle": "inconvenient(concerning time)",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C10",
+    "Title": "きぶんがいい : 気分がいい",
+    "FlipTitle": "feel well",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C11",
+    "Title": "きぶんがいい : 気分が悪い",
+    "FlipTitle": "feel ill",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C12",
+    "Title": "しんぶんしゃ : 新聞社",
+    "FlipTitle": "newspaper publishing company",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C13",
+    "Title": "じゅうどう : 柔道",
+    "FlipTitle": "judo",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C14",
+    "Title": "うんどうかい : 運動会",
+    "FlipTitle": "athletc meeting",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C15",
+    "Title": "ばしょ : 場所",
+    "FlipTitle": "place",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C16",
+    "Title": "ボランティア",
+    "FlipTitle": "volunteer",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C16",
+    "Title": "ボランティア",
+    "FlipTitle": "volunteer",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  },
+  {
+    "Id": "C16",
+    "Title": "～べん - ～弁",
+    "FlipTitle": "~ dialect",
+    "FlipFirstDesc": "",
+    "FlipSecondDesc": "",
+    "Tags": "MC-26",
+    "Levels": "N4",
+    "ImagePath": ""
+  }
+]
