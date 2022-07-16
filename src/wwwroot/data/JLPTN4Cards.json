@@ -508,5 +508,1025 @@
     "Tags": "MC-26",
     "Levels": "N4",
     "ImagePath": null
+  },
+  {
+    "Id": "C49",
+    "Title": "かいます",
+    "FlipFirstDesc": "飼います",
+    "FlipTitle": "keep (a pet), raise (an animal)",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C50",
+    "Title": "たてます",
+    "FlipFirstDesc": "建てます",
+    "FlipTitle": "build",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C51",
+    "Title": "はしります[みちを～]",
+    "FlipFirstDesc": "走ります[道を～]",
+    "FlipTitle": "run, drive (along a road)",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C52",
+    "Title": "とります[やすみを～]",
+    "FlipFirstDesc": "取ります[休みを～]",
+    "FlipTitle": "take (a holiday)",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C53",
+    "Title": "みえます[やまが～]",
+    "FlipFirstDesc": "見えます[山が～]",
+    "FlipTitle": "(a mountain) can be seen",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C54",
+    "Title": "きこえます[おとが～]",
+    "FlipFirstDesc": "聞こえます[音が～]",
+    "FlipTitle": "(a sound) can be heard",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C55",
+    "Title": "できます[くうこうが～]",
+    "FlipFirstDesc": "[空港が～]",
+    "FlipTitle": "(an airport) be made, be completed, come into existence",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C56",
+    "Title": "ひらきます[きょうしつを～]",
+    "FlipFirstDesc": "開きます[教室を～]",
+    "FlipTitle": "set up (a class), open, hold",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C57",
+    "Title": "ペット",
+    "FlipFirstDesc": null,
+    "FlipTitle": "pet",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C58",
+    "Title": "とり",
+    "FlipFirstDesc": "鳥",
+    "FlipTitle": "bird",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C59",
+    "Title": "こえ",
+    "FlipFirstDesc": "声",
+    "FlipTitle": "voice",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C60",
+    "Title": "なみ",
+    "FlipFirstDesc": "波",
+    "FlipTitle": "wave",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C61",
+    "Title": "はなび",
+    "FlipFirstDesc": "花火",
+    "FlipTitle": "fireworks",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C62",
+    "Title": "けしき",
+    "FlipFirstDesc": "景色",
+    "FlipTitle": "scenery, view",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C63",
+    "Title": "ひるま",
+    "FlipFirstDesc": "昼間",
+    "FlipTitle": "daytime",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C64",
+    "Title": "むかし",
+    "FlipFirstDesc": "昔",
+    "FlipTitle": "old days, ancient times",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C65",
+    "Title": "どうぐ",
+    "FlipFirstDesc": "道具",
+    "FlipTitle": "tool, instrument, equipment",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C66",
+    "Title": "じどうはんばいき",
+    "FlipFirstDesc": "自動販売機",
+    "FlipTitle": "vending machine",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C67",
+    "Title": "つうしんはんばい",
+    "FlipFirstDesc": "通信販売",
+    "FlipTitle": "mail order, mail-order sales",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C68",
+    "Title": "クリーニング",
+    "FlipFirstDesc": null,
+    "FlipTitle": "(dry) cleaning, laundry",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C69",
+    "Title": "マンション",
+    "FlipFirstDesc": null,
+    "FlipTitle": "condominium, apartment house",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C70",
+    "Title": "だいどころ",
+    "FlipFirstDesc": "台所",
+    "FlipTitle": "kitchen",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C71",
+    "Title": "～きょうしつ",
+    "FlipFirstDesc": "～教室",
+    "FlipTitle": "~ class",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C72",
+    "Title": "パーティールーム",
+    "FlipFirstDesc": null,
+    "FlipTitle": "party room",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C73",
+    "Title": "～ご",
+    "FlipFirstDesc": "～後",
+    "FlipTitle": "after ~ (duration of time)",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C74",
+    "Title": "～しか",
+    "FlipFirstDesc": null,
+    "FlipTitle": "only ~ (used with negatives)",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C75",
+    "Title": "ほかの",
+    "FlipFirstDesc": null,
+    "FlipTitle": "other",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C76",
+    "Title": "はっきり",
+    "FlipFirstDesc": null,
+    "FlipTitle": "clearly",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C77",
+    "Title": "ほとんど",
+    "FlipFirstDesc": null,
+    "FlipTitle": "almost all (in affirmative sentences), hardly, scarcely (in negative sentences)",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C78",
+    "Title": "かんさいくうこう",
+    "FlipFirstDesc": "関西空港",
+    "FlipTitle": "Kansai International Airport",
+    "FlipSecondDesc": null,
+    "Tags": "MC-27",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C79",
+    "Title": "あきはばら",
+    "FlipFirstDesc": "秋葉原",
+    "FlipTitle": "name of a shopping district in Tokyo with many electrical stores",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C80",
+    "Title": "いず",
+    "FlipFirstDesc": "伊豆",
+    "FlipTitle": "peninsula in Shizuoka Prefecture",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C81",
+    "Title": "にちようだいく",
+    "FlipFirstDesc": "日曜大工",
+    "FlipTitle": "Sunday carpenter",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C82",
+    "Title": "ほんだな",
+    "FlipFirstDesc": "本棚",
+    "FlipTitle": "bookshelf",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C83",
+    "Title": "ゆめ",
+    "FlipFirstDesc": "夢",
+    "FlipTitle": "dream",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C84",
+    "Title": "いつか",
+    "FlipFirstDesc": null,
+    "FlipTitle": "someday, sometime",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C85",
+    "Title": "いえ",
+    "FlipFirstDesc": "家",
+    "FlipTitle": "house, home",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C86",
+    "Title": "すばらしい",
+    "FlipFirstDesc": null,
+    "FlipTitle": "marvelous, wonderful",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C87",
+    "Title": "こどもたち",
+    "FlipFirstDesc": "子どもたち",
+    "FlipTitle": "children",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C88",
+    "Title": "だいすき[な]",
+    "FlipFirstDesc": "大好き[な]",
+    "FlipTitle": "like very much",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C89",
+    "Title": "まんが",
+    "FlipFirstDesc": "漫画",
+    "FlipTitle": "comics",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C90",
+    "Title": "しゅじんこう",
+    "FlipFirstDesc": "主人公",
+    "FlipTitle": "hero, heroine",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C91",
+    "Title": "かたち",
+    "FlipFirstDesc": "形",
+    "FlipTitle": "shape",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C92",
+    "Title": "ロボット",
+    "FlipFirstDesc": null,
+    "FlipTitle": "robot",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C93",
+    "Title": "ふしぎ[な]",
+    "FlipFirstDesc": "不思議[な]",
+    "FlipTitle": "fantastic, mysterious",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C94",
+    "Title": "ポケット",
+    "FlipFirstDesc": null,
+    "FlipTitle": "pocket",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C95",
+    "Title": "たとえば",
+    "FlipFirstDesc": "例えば",
+    "FlipTitle": "for example",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C96",
+    "Title": "つけます",
+    "FlipFirstDesc": "付けます",
+    "FlipTitle": "attach, put on",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C97",
+    "Title": "じゆうに",
+    "FlipFirstDesc": "自由に",
+    "FlipTitle": "freely",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C98",
+    "Title": "そら",
+    "FlipFirstDesc": "空",
+    "FlipTitle": "sky",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C99",
+    "Title": "とびます",
+    "FlipFirstDesc": "飛びます",
+    "FlipTitle": "fly",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C100",
+    "Title": "じぶん",
+    "FlipFirstDesc": "自分",
+    "FlipTitle": "oneself",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C101",
+    "Title": "しょうらい",
+    "FlipFirstDesc": "将来",
+    "FlipTitle": "future",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C102",
+    "Title": "ドラえもん",
+    "FlipFirstDesc": null,
+    "FlipTitle": "name of a cartoon character",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C103",
+    "Title": "うれます[パンが～]",
+    "FlipFirstDesc": "売れます",
+    "FlipTitle": "(bread) sell well",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C104",
+    "Title": "おどります",
+    "FlipFirstDesc": "踊ります",
+    "FlipTitle": "dance",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C105",
+    "Title": "かみます",
+    "FlipFirstDesc": null,
+    "FlipTitle": "chew, bite",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C106",
+    "Title": "えらびます",
+    "FlipFirstDesc": "選びます",
+    "FlipTitle": "choose",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C107",
+    "Title": "ちがいます",
+    "FlipFirstDesc": "違います",
+    "FlipTitle": "be different",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C108",
+    "Title": "かよいます[だいがくに～]",
+    "FlipFirstDesc": "通います[大学に～]",
+    "FlipTitle": "go to and from (university)",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C109",
+    "Title": "メモします",
+    "FlipFirstDesc": null,
+    "FlipTitle": "take a memo",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C110",
+    "Title": "まじめ[な]",
+    "FlipFirstDesc": null,
+    "FlipTitle": "serious",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C111",
+    "Title": "ねっしん[な]",
+    "FlipFirstDesc": "熱心[な]",
+    "FlipTitle": "earnest",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C112",
+    "Title": "やさしい",
+    "FlipFirstDesc": "優しい",
+    "FlipTitle": "gentle, kind",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C113",
+    "Title": "えらい",
+    "FlipFirstDesc": "偉い",
+    "FlipTitle": "great, admirable",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C114",
+    "Title": "ちょうどいい",
+    "FlipFirstDesc": null,
+    "FlipTitle": "proper, just right",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C115",
+    "Title": "しゅうかん",
+    "FlipFirstDesc": "習慣",
+    "FlipTitle": "custom",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C116",
+    "Title": "けいけん",
+    "FlipFirstDesc": "経験",
+    "FlipTitle": "experience",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C117",
+    "Title": "ちから",
+    "FlipFirstDesc": "力",
+    "FlipTitle": "power",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C118",
+    "Title": "にんき",
+    "FlipFirstDesc": "人気",
+    "FlipTitle": "popularity",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C119",
+    "Title": "かたち",
+    "FlipFirstDesc": "形",
+    "FlipTitle": "form, shape",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C120",
+    "Title": "いろ",
+    "FlipFirstDesc": "色",
+    "FlipTitle": "color",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C121",
+    "Title": "あじ",
+    "FlipFirstDesc": "味",
+    "FlipTitle": "taste",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C122",
+    "Title": "ガム",
+    "FlipFirstDesc": null,
+    "FlipTitle": "chewing gum",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C123",
+    "Title": "しなもの",
+    "FlipFirstDesc": "品物",
+    "FlipTitle": "goods",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C124",
+    "Title": "ねだん",
+    "FlipFirstDesc": "値段",
+    "FlipTitle": "price",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C125",
+    "Title": "きゅうりょう",
+    "FlipFirstDesc": "給料",
+    "FlipTitle": "salary",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C126",
+    "Title": "ボーナス",
+    "FlipFirstDesc": null,
+    "FlipTitle": "bonus",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C127",
+    "Title": "ばんぐみ",
+    "FlipFirstDesc": "番組",
+    "FlipTitle": "program",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C128",
+    "Title": "ドラマ",
+    "FlipFirstDesc": null,
+    "FlipTitle": "drama",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C129",
+    "Title": "しょうせつ",
+    "FlipFirstDesc": "小説",
+    "FlipTitle": "novel",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C130",
+    "Title": "しょうせつか",
+    "FlipFirstDesc": "小説家",
+    "FlipTitle": "novelist",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C131",
+    "Title": "かしゅ",
+    "FlipFirstDesc": "歌手",
+    "FlipTitle": "singer",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C132",
+    "Title": "かんりにん",
+    "FlipFirstDesc": "管理人",
+    "FlipTitle": "janitor",
+    "FlipSecondDesc": null,
+    "Tags": "MC-28",
+    "Levels": "N4",
+    "ImagePath": null
+  },
+  {
+    "Id": "C133",
+    "Title": "むすこ",
+    "FlipFirstDesc": "息子",
+    "FlipTitle": "(my) son",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C134",
+    "Title": "むすこさん",
+    "FlipFirstDesc": "息子さん",
+    "FlipTitle": "(someone else’s) son",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C135",
+    "Title": "むすめ",
+    "FlipFirstDesc": "娘",
+    "FlipTitle": "(my) daughter",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C136",
+    "Title": "むすめさん",
+    "FlipFirstDesc": "娘さん",
+    "FlipTitle": "(someone else’s) daughter",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C137",
+    "Title": "じぶん",
+    "FlipFirstDesc": "自分",
+    "FlipTitle": "oneself",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C138",
+    "Title": "しょうらい",
+    "FlipFirstDesc": "将来",
+    "FlipTitle": "future",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C139",
+    "Title": "しばらく",
+    "FlipFirstDesc": null,
+    "FlipTitle": "a little while",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C140",
+    "Title": "たいてい",
+    "FlipFirstDesc": null,
+    "FlipTitle": "usually, mostly",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C141",
+    "Title": "それに",
+    "FlipFirstDesc": null,
+    "FlipTitle": "in addition",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C142",
+    "Title": "それで",
+    "FlipFirstDesc": null,
+    "FlipTitle": "and so",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C143",
+    "Title": "[ちょっと]おねがいがるんですが",
+    "FlipFirstDesc": "お願いがあるんですが",
+    "FlipTitle": "I have a favor to ask",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C144",
+    "Title": "ホームステイ",
+    "FlipFirstDesc": null,
+    "FlipTitle": "homestay",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C145",
+    "Title": "おしゃべりします",
+    "FlipFirstDesc": null,
+    "FlipTitle": "chat",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C146",
+    "Title": "おしらせ",
+    "FlipFirstDesc": "お知らせ",
+    "FlipTitle": "notice",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C147",
+    "Title": "ひにち",
+    "FlipFirstDesc": "日にち",
+    "FlipTitle": "date",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C148",
+    "Title": "ど",
+    "FlipFirstDesc": "土",
+    "FlipTitle": "Saturday",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C149",
+    "Title": "たいいくかん",
+    "FlipFirstDesc": "体育館",
+    "FlipTitle": "gymnasium",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
+  },
+  {
+    "Id": "C150",
+    "Title": "むりょう",
+    "FlipFirstDesc": "無料",
+    "FlipTitle": "free of charge",
+    "FlipSecondDesc": null,
+    "Tags": null,
+    "Levels": null,
+    "ImagePath": null
   }
 ]
