@@ -28,8 +28,26 @@
              </footer>
         </div>*@
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/BTS_N4.svg" alt="Lamp" width="32" height="32">
-        <div class="flex left-0">
+ <MudCard>
+       <MudCardHeader>
+        <CardHeaderContent>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/BTS_N4.svg" alt="Lamp" width="32" height="32">
+            <MudText Typo="Typo.h6"><b>@Title</b></MudText>
+        </CardHeaderContent>
+    </MudCardHeader>
+
+    <MudCardContent>
+        <MudText Typo="Typo.body1"><b>@FirstDesc</b></MudText>
+    </MudCardContent>
+    <MudCardActions>
+        <MudButton  Variant="Variant.Filled" EndIcon="@Icons.Filled.BackHand" Color="Color.Primary"  @onclick="Flip">TAP</MudButton>
+        <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+        <MudIconButton  Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+    </MudCardActions>
+</MudCard>
+
+ 
+@*        <div class="flex left-0">
         <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
         <div class="p-6 flex flex-col justify-start">
       <h5 class="text-gray-900 text-xl font-medium mb-3">@Title</h5>
@@ -45,7 +63,7 @@
        </footer>
     </div>
   </div>
-</div>
+</div>*@
       <!--  <div class="max-w-sm  bg-yellow-100 rounded overflow-hidden shadow-lg">
         <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">@Message</div>

@@ -1,13 +1,37 @@
 @inherits LayoutComponentBase
 
-    <div class="flex justify-between absolute inset-x-0 top-0">
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar Elevation="0">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+        <MudSpacer />
+@*        <MudIconButton Icon="" Color="Color.Inherit" Link="https://www.youtube.com/watch?v=va6HKMlIANc" Target="_blank" />
+        <MudIconButton Icon="@Icons.Filled.BlurCircular" Color="Color.Inherit" Link="https://www.youtube.com/watch?v=va6HKMlIANc" Target="_blank" />*@
+
+        <MudButton Variant="Variant.Filled" EndIcon="@Icons.Filled.Addchart" Color="Color.Primary"  Link="https://www.youtube.com/watch?v=va6HKMlIANc">REGISTER</MudButton>
+        <MudButton Variant="Variant.Filled" EndIcon="@Icons.Filled.AddIcCall" Color="Color.Primary"  Link="https://www.youtube.com/watch?v=va6HKMlIANc">CONTACT US</MudButton>
+    </MudAppBar>
+    <MudDrawer @bind-Open="_drawerOpen" Elevation="1">
+        <MudDrawerHeader>
+            <MudText Typo="Typo.h6">ACADEMY</MudText>
+        </MudDrawerHeader>
         <NavMenu />
-@*        <a class="uppercase mt-6 ml-8  pb-2 border-b-4 mr-6 border-purple-700 hover:border-green-400" href="https://www.youtube.com/watch?v=va6HKMlIANc" target="_blank">Contact Us</a>
-*@    </div>
+    </MudDrawer>
+    <MudMainContent>
+        <MudContainer MaxWidth="MaxWidth.Large" Class="my-16 pt-16">
+            @Body
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
 
-<br />
-<br />
+@code {
+    bool _drawerOpen = true;
 
-<div class="px-8 container mx-auto">
-    @Body
-</div>
+    void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+}

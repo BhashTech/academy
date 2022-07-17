@@ -1,9 +1,9 @@
 ﻿@page "/fetchdata"
 @inject HttpClient Http
 
-<h1 class="text-4xl font-bold mb-4">Weather forecast</h1>
+<h1 class="text-4xl font-bold mb-4"> Welcome to learn business Japanese</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
+<p>Soon the support will be added.</p>
 
 @if (forecasts == null)
 {
@@ -11,7 +11,7 @@
 }
 else
 {
-    <table class="table-auto w-3/5 mt-4 mx-auto">
+@*    <table class="table-auto w-3/5 mt-4 mx-auto">
         <thead>
             <tr>
                 <th class="tableheader">Date</th>
@@ -31,7 +31,7 @@ else
                 </tr>
             }
         </tbody>
-    </table>
+    </table>*@
 }
 
 @code {
