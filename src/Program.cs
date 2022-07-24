@@ -19,7 +19,11 @@ namespace Academy
             builder.RootComponents.Add<App>("#app");
 
             builder.Services.AddMudServices();
+            builder.Services.AddOidcAuthentication(options => {
+                builder.Configuration.Bind("Local", options.ProviderOptions);          
+            });
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+
             await builder.Build().RunAsync();
         }
     }

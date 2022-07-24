@@ -6,10 +6,13 @@
 
 <MudLayout>
     <MudAppBar Elevation="0">
+
+
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
         <MudSpacer />
+           
 @*        <MudIconButton Icon="" Color="Color.Inherit" Link="https://www.youtube.com/watch?v=va6HKMlIANc" Target="_blank" />
-        <MudIconButton Icon="@Icons.Filled.BlurCircular" Color="Color.Inherit" Link="https://www.youtube.com/watch?v=va6HKMlIANc" Target="_blank" />*@
+          <MudIconButton Icon="@Icons.Filled.BlurCircular" Color="Color.Inherit" Link="https://www.youtube.com/watch?v=va6HKMlIANc" Target="_blank" />*@
 
         <MudButton Variant="Variant.Filled" EndIcon="@Icons.Filled.Addchart" Color="Color.Primary"  Link="https://www.youtube.com/watch?v=va6HKMlIANc">REGISTER</MudButton>
         <MudButton Variant="Variant.Filled" EndIcon="@Icons.Filled.AddIcCall" Color="Color.Primary"  Link="https://www.youtube.com/watch?v=va6HKMlIANc">CONTACT US</MudButton>
@@ -17,6 +20,8 @@
     <MudDrawer @bind-Open="_drawerOpen" Elevation="1">
         <MudDrawerHeader>
             <MudText Typo="Typo.h6">ACADEMY</MudText>
+
+         
         </MudDrawerHeader>
         <NavMenu />
     </MudDrawer>

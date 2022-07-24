@@ -1,0 +1,43 @@
+﻿@page "/LoginDisplay"
+@page "/"
+
+@inject NavigationManager Navigation
+@inject SignOutSessionStateManager SignOutManager
+
+<h1 class="text-4xl font-bold mb-4 mt-[111px]"> Welcome to Bhash Acadamy</h1>
+
+<AuthorizeView>
+   <Authorized>
+     <MudCard>
+       <MudCardHeader>
+        <CardHeaderContent>
+            <MudText Typo="Typo.h6"><b>Hello , @context.User.Identity.Name!</b></MudText>
+        </CardHeaderContent>
+    </MudCardHeader>
+    <MudCardContent>
+        <MudText Typo="Typo.body1"><b>Welcome to Acadamy</b></MudText>
+    </MudCardContent>
+    <MudCardActions>
+        <MudButton  Variant="Variant.Filled" EndIcon="@Icons.Custom.Brands.Google" Color="Color.Info" @onclick="BeginSignOut">Sign Out</MudButton>
+    </MudCardActions>
+</MudCard>
+   </Authorized>
+   <NotAuthorized>
+       <MudButton  Variant="Variant.Filled" EndIcon="@Icons.Custom.Brands.Google" Color="Color.Info"  @onclick="BeginLogin">Google Sign-In</MudButton>
+   </NotAuthorized>
+</AuthorizeView>
+
+
+@code {
+
+    private async Task BeginLogin(MouseEventArgs args)
+    {
+      Navigation.NavigateTo($"authentication/login");
+    }
+
+    private async Task BeginSignOut(MouseEventArgs args)
+    {
+        await SignOutManager.SetSignOutState();
+        Navigation.NavigateTo($"authentication/logout");
+    }
+}
